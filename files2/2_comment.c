@@ -1,5 +1,7 @@
 // A C program for checking whether a given line is a comment
 
+// LOGIC: Read the input string. Check whether the string is starting with „/‟ and check next character is „/‟ or‟*‟. If condition satisfies print comment. Else not a comment
+
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>

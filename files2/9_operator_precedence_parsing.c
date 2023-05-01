@@ -1,4 +1,6 @@
 //  operator precedence parsing
+// Parsing (Syntax analysis) is a topic in compiler construction. Operator Precedence parsing is one of i. For example, a sample input string to the operator precedence parser is i*(i+i).
+// the parsing techniques for ambiguous grammars. It solves the ambiguity by using operator precedence. In this post we will see a C program which implement operator precedence parsing to check the syntax for given input string. In input string (here a mathematical expression) the identifiers are denoted by
 
 #include <stdio.h>
 #include <string.h>

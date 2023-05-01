@@ -1,6 +1,8 @@
 // C program for constructing of LL (1) parsing
 // Enter the input string:i*i+i
 
+// LOGIC: Read the input string. Using predictive parsing table parse the given input using stack . If stack [i] matches with token input string pop the token else shift  it repeat the process  until it reaches to $.
+
 #include <string.h>
 #include <ctype.h>
 #include <stdio.h>

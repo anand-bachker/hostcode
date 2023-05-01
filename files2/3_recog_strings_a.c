@@ -1,4 +1,7 @@
 // C program to recognize strings under ‘a*’, ‘a*b+’, ‘abb’
+// input: aaabbbb
+// LOGIC: By using transition diagram we verify input of the state. If the state recognize the given pattern rule. Then print string is accepted under a*/ a*b+/ abb. Else print string not accepted.
+
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>

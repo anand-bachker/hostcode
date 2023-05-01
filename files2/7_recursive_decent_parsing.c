@@ -1,12 +1,17 @@
 // c program for consrtucting recursive descent parsing
 
+// It is a kind of Top-Down Parser. A top-down parser builds the parse tree from the top to down, starting with the start non-terminal. A Predictive Parser is a special case of Recursive Descent Parser, where no Back Tracking is required.
+// By carefully writing a grammar means eliminating left recursion and left factoring from it, the resulting grammar will be a grammar that can be parsed by a recursive descent parser
+
 #include <stdio.h>
 #include <string.h>
 
 #define SUCCESS 1
 #define FAILED 0
 
-int E(), Edash(), T(), Tdash(), F();
+    int
+    E(),
+    Edash(), T(), Tdash(), F();
 
 const char *cursor;
 char string[64];

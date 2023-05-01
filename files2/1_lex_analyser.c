@@ -1,12 +1,16 @@
 // design a lexical analyzer in c
+// input: i=i+i*i
+// As it is known that Lexical Analysis is the first phase of compiler also known as scanner. It converts the input program into a sequence of Tokens.
+// A C program consists of various tokens and a token is either a keyword, an identifier, a constant, a string literal, or a symbol
 
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
-// Returns 'true' if the character is a DELIMITER.
-bool isDelimiter(char ch)
+                                                                                                                         // Returns 'true' if the character is a DELIMITER.
+                                                                                                                         bool
+                                                                                                                         isDelimiter(char ch)
 {
     if (ch == ' ' || ch == '+' || ch == '-' || ch == '*' ||
         ch == '/' || ch == ',' || ch == ';' || ch == '>' ||
