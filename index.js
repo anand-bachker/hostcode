@@ -25,7 +25,6 @@ app.get("/", (req, res) => {
         } else {
             res.send(
                 files.map((file) => {
-                    // make <a> tag for each file
                     return `
                     <div>
                         <a href="/serve?filename=${file}">${file}</a>
